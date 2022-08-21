@@ -7,7 +7,7 @@ terraform {
     }
   }
   backend "s3" {
-    bucket         = "devopsb25terraformdev"
+    bucket         = "devopsb25terraformdev1"
     key            = "multibranch-dev.tfstate"
     region         = "us-east-1"
     #dynamodb_table = "devopsb25-terraform-state-lock-dynamo"
